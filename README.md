@@ -1,8 +1,8 @@
 # 520b Drive Reformatting
 
-This repository contains a bash script that automatically reformats 520b sector sized-formatted drives to the standard 512b sector size format on a Linux system.
+This repository contains a bash script that automatically reformats 520b sector-sized-formatted drives to the standard 512b sector size format on a Linux system.
 
-## Prereqs
+## Prerequisites:
 
 Ensure you have `sg3-utities` installed.
 
@@ -10,9 +10,9 @@ Ensure you have `sg3-utities` installed.
 sudo apt-get install -y sg3-utils   # or your distro equivalent
 ```
 
-## WARNING
+## WARNING:
 
-This is a destructive process and WILL wipe all drive data on the drives you specify. Ensure you only reformat the desired drives.
+This is a destructive process that will wipe all data on the specified drives. Please ensure you only reformat the desired drives.
 
 ## Guide to Use:
 
